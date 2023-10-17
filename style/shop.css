@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@700&display=swap');
+
+*{
+   margin:0;
+   padding:0; 
+}
+
+.main{
+    justify-content: space-evenly;
+    display:flex;
+    width:100%;
+    height:700px;
+    background-color:  #262626;
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+}
+
+.product{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    transition: 0.15s ease-in-out;
+}
+
+.product:hover{
+    transform: scale(1.1);
+}
+
+.product-image img{
+    width: 200px;
+    height: 200px;
+}
+
+.package-name{
+    text-align: center;
+    font-family: 'Amita';
+    color: white;
+    display: inline;
+}
+
+.add-to-cart{
+    font-family: 'Amita';
+    color: white;
+    background-color: #945d34;
+    border:none;
+    padding: 4px;
+    border-radius: 3px;
+    margin-left: 50px;
+    transition: 0.15s ease-in-out;
+    cursor:pointer;
+}
+
+.add-to-cart:hover{
+  background-color: white;
+    color: #945d34;
+}
+
+.price{
+    font-family: 'Amita';
+    color:white;
+    background-color: #47260c;
+    padding: 4px;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+
+
+

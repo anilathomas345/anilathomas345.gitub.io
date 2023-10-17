@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style/signup.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="navigationbar">
+        <div class="icon">
+            <h2 class="logo">
+                Espresso <span class="express">Express...</span>
+            </h2>
+            <img src="coffeeshopimages/logo.png" alt="" class="logo-img">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="shop.html">Shop</a></li>
+            </ul>
+        </div>
+        <input type="text" placeholder="Search" class="search-bar">
+                <button class="search">Search</button>
+                <button class="login" onclick="window.location='login.html'">Login</button>
+    </div>
+
+    <form class="container">
+    <h1 class="login-head">Sign Up</h1>
+    <input type="text" placeholder="First Name" required>
+    <input type="text" placeholder="Second Name"><br><br>
+    <input type="text" placeholder="Username">
+    <input type="password" placeholder="Password"><br><br>
+    <input type="email" placeholder="Email">
+    <input type="phone" placeholder="Phone Number"><br><br>
+    <button class="login-btn">Sign Up</button><br><br>
+    <span class="signuplink">Already have an Account....<a href="login.html" class="signup">Login!</a></span><br><br>
+    </form>  
+</body>
+</html>
